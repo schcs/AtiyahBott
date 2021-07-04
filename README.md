@@ -34,7 +34,7 @@ julia> AtiyahBottFormula(2,d,3*d-1,P);<br>
 </pre>
 Alternatively, one can perform such computation with zero marked points by typing
 <pre class="tab">
-julia> using AtiyahBott: Incidency
+julia> using AtiyahBott: Incidency<br>
 julia> P = (g,c,w,s,m) -> Incidency(g,c,w,s,2)^(3*d-1)<br>
 julia> AtiyahBottFormula(2,d,0,P);<br>
 </pre>
