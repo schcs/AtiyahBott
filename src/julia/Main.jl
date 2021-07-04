@@ -35,7 +35,7 @@ function AtiyahBottFormulaForGraph( g::SimpleGraph, pruf_str::String,
         if from_file 
             cols = graph_coloring_from_file( file_name )        
         else 
-            println( "graph not found!!!" )
+            #println( "graph not found!!!" )
             cols = graph_coloring( g, UInt8(n+1) )
         end 
     else 
@@ -171,7 +171,7 @@ function AtiyahBottFormula(n::Int64, deg::Int64, n_marks::Int64, P; do_check::Bo
     local result::Vector{Rational{BigInt}} = [Rational{BigInt}(0) for _ in 1:n_results] #the array of final results
     local max_col::Int64 = n+1   #the colors are number from 1 to n+1
      
-    println( "current_dir is", current_dir )
+    #println( "current_dir is", current_dir )
     list_g::IOStream = open( current_dir*"/julia/list_trees.txt" ) 
     #open the file containing the list of Prufer sequences of graphs
     
