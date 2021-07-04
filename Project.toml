@@ -1,0 +1,9 @@
+name = "AtiyahBott"
+uuid = "74247ee3-4f05-4974-aacf-81028f7bc381"
+authors = ["Giosuè Muratore <muratore.g.e@gmail.com >", "Csaba Schneider <csaba.schneider@gmail.com>"]
+version = "1.0.0"
+
+[deps]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
