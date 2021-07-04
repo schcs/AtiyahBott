@@ -9,7 +9,7 @@ To install this package go to the <a href="https://pkgdocs.julialang.org/v1/mana
 (@v1.6) pkg> add https://github.com/schcs/AtiyahBott
 </pre>
 
-Then exit the Pkg REPL (by hitting Ctl-C) and type 
+Then exit the Pkg REPL (by hitting Ctrl-C) and type 
 <pre class="tab">
 julia> using AtiyahBott
 </pre>
