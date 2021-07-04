@@ -5,8 +5,16 @@ This package contains an implementation of the Atiyah-Bott residue formula in th
  
 To install this package go to the <a href="https://pkgdocs.julialang.org/v1/managing-packages/">Pgk REPL</a> inside Julia (by hitting the "]" key) and type 
 
+<pre class="tab">
 (@v1.6) pkg> add https://github.com/schcs/AtiyahBott
- 
+</pre>
+
+Then exit the Pkg REPL (by hitting Ctl-C) and type 
+<pre class="tab">
+julia> using AtiyahBott
+</pre>
+
+
 To use our code, you should first define the equivariant classes to be calculated as "P = (g,c,w,s,m) ->...".<br>
 After the "->", one has to write an expression in the equivariant classes. After P is defined, one has to call the
 Atiyah-Bott formula by the command AtiyahBottFormula(n,d,m,P). 
