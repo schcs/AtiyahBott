@@ -68,6 +68,6 @@ julia> P = (g,c,w,s,m) -> Incidency(g,c,w,s,2)^(3*d-1)*Jet(g,c,w,s,m,1,1);<br>
 julia> AtiyahBottFormula(2,d,1,P);<br>
 </pre>
 
-In order to execute these computations, the system requires the list of tree graphs up to d+1 vertices. These graphs are available in the file src/Julia/list_trees.txt. 
+In order to execute these computations, the system requires the list of tree graphs up to d+1 vertices. These graphs are available in the file src/julia/list_trees.txt. 
 We also need the possible colorings of these graphs with n+1 colors. These can either be computed by the package or they can be read from a file stored 
 in the src/data directory (this is the fastest option). The user can use function AtiyahBott.check_Data() to see the list of graphs with pre-computed colorings. 
