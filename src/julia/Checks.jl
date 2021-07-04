@@ -116,9 +116,9 @@ end
 
 List of all files containing the colorations in the folder Data.
 """
-function check_Data(data_dir = "..")
+function check_Data( data_dir = current_dir )
     
-    data_dir = data_dir*"/Data/"
+    data_dir = data_dir*"/data/"
     
     if !isdir(data_dir)
         println("Folder ", data_dir, " not found.")
